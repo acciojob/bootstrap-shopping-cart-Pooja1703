@@ -1,15 +1,151 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+
+        <div class="block-heading">
+            <h2>Shopping Cart</h2>
+            <p>Shopping Cart</p>
+        </div>
+
+
+        <div class="row">
+
+            <!-- Products -->
+
+            <div class="col-lg-8">
+
+                <div class="product">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
+                                class="img-fluid"
+                                alt="Watch">
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <h4>Watch</h4>
+
+                            <p>
+                                A stylish watch for everyday use.
+                            </p>
+
+                            <h5>$120</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+                                class="img-fluid"
+                                alt="Shoes">
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <h4>Shoes</h4>
+
+                            <p>
+                                Comfortable shoes for daily wear.
+                            </p>
+
+                            <h5>$80</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+                                class="img-fluid"
+                                alt="Bag">
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <h4>Bag</h4>
+
+                            <p>
+                                A useful and stylish bag.
+                            </p>
+
+                            <h5>$60</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Summary -->
+
+            <div class="col-lg-4">
+
+                <div class="summary">
+
+                    <h3>Summary</h3>
+
+                    <div class="row">
+                        <div class="col">Products</div>
+                        <div class="col text-right">$260</div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col">Subtotal</div>
+                        <div class="col text-right">$260</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">Shipping</div>
+                        <div class="col text-right">$0</div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col">Total</div>
+                        <div class="col text-right">$260</div>
+                    </div>
+
+                    <button class="btn btn-primary btn-block">
+                        Checkout
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
